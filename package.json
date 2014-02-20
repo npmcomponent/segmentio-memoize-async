@@ -1,31 +1,13 @@
 {
-  "name": "memoize-async",
+  "name": "segmentio-memoize-async",
+  "description": "Memoize the results of async functions",
   "version": "0.0.2",
-  "description": "Async memoizing function",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha test --reporter spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/segmentio/memoize-async.git"
-  },
   "keywords": [
-    "memoize",
-    "async"
+    "memoize"
   ],
-  "author": "Segmentio",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/segmentio/memoize-async/issues"
-  },
+  "main": "index.js",
   "dependencies": {
-    "next-tick": "git://github.com/timoxley/next-tick"
+    "timoxley-next-tick": "git://github.com/npmcomponent/timoxley-next-tick.git"
   },
-  "devDependencies": {
-    "mocha": "~1.13.0"
-  }
+  "license": "MIT"
 }
